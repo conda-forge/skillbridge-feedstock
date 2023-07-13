@@ -1,11 +1,11 @@
-About skillbridge
-=================
+About skillbridge-feedstock
+===========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/skillbridge-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/unihd-cag/skillbridge
 
 Package license: LGPL-3.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/skillbridge-feedstock/blob/main/LICENSE.txt)
 
 Summary: A seamless Python remote bridge to Cadence's Skill in Virtuoso
 
