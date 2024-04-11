@@ -1,5 +1,5 @@
 {% set name = "skillbridge" %}
-{% set version = "1.7.0" %}
+{% set version = "1.7.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/skillbridge-{{ version }}.tar.gz
-  sha256: 3bcc346e6b00d9520a8970db052a07fc8e69a0d2cb0a1ad6f28c0f1cfef92e84
+  sha256: 7e04cf74ebdc3875d7bed4f3b1c0dad2bd4d413f378a08db0a493ccee12bb726
 
 build:
   skip: true  # [py2k or win or osx]
