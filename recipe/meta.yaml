@@ -6,12 +6,12 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/skillbridge-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/skillbridge-{{ version }}.tar.gz
   sha256: af527620e064da526ca3460bb7f787aed4be678caf9cef40d5a11fed675ae4a5
 
 build:
   skip: true  # [py2k or win or osx]
-  number: 0
+  number: 1
 
 
 requirements:
